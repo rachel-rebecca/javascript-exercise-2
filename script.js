@@ -14,7 +14,7 @@ if (name1.length > name2.length && name1.length > name3.length) {
   console.log(name1 + " and " + name3 + " are tied for the longest name.");
 } else if (name2.length === name3.length && name2.length !== name1.length) {
   console.log(name2 + " and " + name3 + " are tied for the longest name.");
-} else if (name1.length === name2.length && name2.length === name3.length) {
+} else if (name1.length === name2.length && name2.length === name3.length) { //or could have put else
   console.log(
     "All three names, " +
       name1 +
